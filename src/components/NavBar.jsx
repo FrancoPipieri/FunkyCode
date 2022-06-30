@@ -1,5 +1,5 @@
 import imagen from '../img/funkoyo.png';
-import './style.css';
+import './navBar.css';
 
 function NavBar(){
     return(
