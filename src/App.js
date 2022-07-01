@@ -1,8 +1,12 @@
+import ItemListConteiner from './components/ItemListConteiner.jsx';
 import NavBar from './components/NavBar.jsx';
 
 function App() {
   return (
-    <NavBar/>
+    <>
+    <NavBar />
+    <ItemListConteiner greeting="Hola A Todos" />
+    </>
   );
 }
 

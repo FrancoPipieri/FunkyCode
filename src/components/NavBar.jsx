@@ -1,5 +1,6 @@
 import imagen from '../img/funkoyo.png';
 import './navBar.css';
+import Icon from './CartWidget.jsx'
 
 function NavBar(){
     return(
@@ -7,7 +8,10 @@ function NavBar(){
             <div className='flex nav'>
                 <img src={imagen} alt="" className='w-16 m-2' />
                 <div className='m-1.5 w-full enlaces'>
-                    <h1 className="text-3xl font-bold underline text-center">Funkys Coder</h1>
+                    <div className='flex'>
+                        <h1 className="text-3xl font-bold underline text-center titlePage">Funkys Coder</h1>
+                        <Icon/>
+                    </div>
                     <nav>
                         <ul>
                             <li className=" flex justify-end">

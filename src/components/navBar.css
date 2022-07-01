@@ -7,3 +7,12 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.titlePage{
+    width: 95%;
+    color: rgb(213, 213, 213);
+}
+.iconCart{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
