@@ -37,7 +37,7 @@ function ItemListConteiner(props) {
 
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8">
           {funkos.map((datos) => (
-            <a href="#" className="group">
+            <botton className="group">
               <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                 <img
                   src={datos.filename}
@@ -48,7 +48,7 @@ function ItemListConteiner(props) {
               <h3 className="mt-4 text-sm text-gray-700">{datos.title}</h3>
               <h4 className="mt-4 text-sm text-gray-700">{datos.series}</h4>
               <p className="mt-1 text-lg font-medium text-gray-900">${datos.price}</p>
-            </a>
+            </botton>
           ))}
         </div>
       </div>
