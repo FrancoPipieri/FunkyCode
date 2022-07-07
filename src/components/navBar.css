@@ -1,5 +1,6 @@
 .nav{
     background: radial-gradient(circle, rgb(37, 36, 36) 0%, rgb(0, 0, 0) 70%);
+    padding: 5px;
 }
 .enlaces{
     color: aliceblue;
@@ -8,7 +9,7 @@
     justify-content: space-between;
 }
 .titlePage{
-    width: 95%;
+    width: 100%;
     color: rgb(213, 213, 213);
 }
 .iconCart{
