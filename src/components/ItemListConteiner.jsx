@@ -1,35 +1,16 @@
-const cards= () =>{
-  fetch('/data.json')
-      .then(response => response.json())
-      .then(json => mostrarProductos(json))
-}
-cards();
-let funkos = [];
-
-class Personaje{
-  constructor(title, filename, series, price){
-      this.title = title;
-      this.filename = filename;
-      this.series = series;
-      this.price = price;
-  }
-};
-
-function mostrarProductos(datos){
-  datos.forEach((dato) => {
-      const toy = new Personaje(
-          dato.title,
-          dato.filename,
-          dato.series,
-          dato.price
-      );
-      funkos.push(toy);
-  });
-};
-
+import {useState , useEffect} from 'react';
 
 function ItemListConteiner(props) {
-  
+  useEffect(()=>{
+    setTimeout(() => {
+      fetch('/data.json')
+        .then(response => response.json())
+        .then(json => setFunkos(json));
+    }, 1000);
+  },[])
+
+  const [funkos , setFunkos] = useState([]);
+
   return (
     <div className="bg-white">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
