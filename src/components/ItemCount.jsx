@@ -19,15 +19,14 @@ function ItemCount(props){
     return(
         <div className="container text-center">
             <div className="flex flex-col items-center">
-             <h1 className="bold title-font">Articulos</h1>
              <div>
                 <div className="flex justify-between rounded border-black border-2">
-                 <button className="m-2" onClick={resta}> -</button>
-                 <span className="m-2">{count}</span>
-                 <button className="m-2" onClick={suma}> +</button>
+                 <button className="m-2 w-8" onClick={resta}> -</button>
+                 <span className="m-2 w-6">{count}</span>
+                 <button className="m-2 w-8" onClick={suma}> +</button>
                 </div>
                 <div>
-                    <button className="rounded border border-gray-500 m-2" onClick={agregar}> Agregar a Carrito</button>
+                    <button className="rounded border border-gray-500 m-2 p-0.5" onClick={agregar}> Agregar a Carrito</button>
                 </div>
              </div>
             </div>

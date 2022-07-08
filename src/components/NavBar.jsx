@@ -1,7 +1,7 @@
 import imagen from '../img/funkoyo.png';
-import './navBar.css';
+import './main.css';  
 import Icon from './CartWidget.jsx'
-
+import logo from '../img/Logo.webp';
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -37,15 +37,19 @@ function NavBar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 block items-center">
                   <img
-                    className="block lg:hidden h-8 w-auto"
+                    className="block lg:hidden h-24 w-auto"
                     src={imagen}
                     alt="logo"
                   />
-                  <h1 className="hidden lg:block text-3xl font-bold underline text-center titlePage">Funkys Coder</h1>
+                  <img
+                    className="hidden lg:block h-24 w-auto"
+                    src={logo}
+                    alt="logo2"
+                  />
                  
                 
                 </div>
-                <div className=" flex hidden sm:block sm:ml-6">
+                <div className=" flex hidden sm:block sm:ml-6 self-center">
                   <div className="flex space-x-4 justify-end">
                     {navigation.map((item) => (
                       <a
