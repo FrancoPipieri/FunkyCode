@@ -3,1231 +3,1324 @@
     "title": "01 Harry Potter",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Harry-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2850",
+    "stock": 9
   },
   {
     "title": "02 Ron Weasley",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Ron-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2700",
+    "stock": 14
   },
   {
     "title": "03 Hermione Granger",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Hermione-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2220",
+    "stock": 10
   },
   {
     "title": "04 Albus Dumbledore",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Dumbledoor-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2350",
+    "stock": 7
   },
   {
     "title": "05 Severus Snape",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Snape-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2550",
+    "stock": 5
   },
   {
     "title": "06 Lord Voldemort",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Voldemort-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2760",
+    "stock": 3
   },
   {
     "title": "07 Rubeus Hagrid 6",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Hagrid-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "3500",
+    "stock": 16
   },
   {
     "title": "09 Harry Potter with Sword of Gryffindor",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Screen-Shot-2015-06-22-at-3.30.00-PM-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "3650",
+    "stock": 2
   },
   {
     "title": "13 Draco Malfoy",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/draco-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2100",
+    "stock": 8
   },
   {
     "title": "14 Luna Lovegood",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/luna-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2150",
+    "stock": 7
   },
   {
     "title": "16 Sirius Black",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/sirius-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2800",
+    "stock": 2
   },
   {
     "title": "17 Dobby",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dobby-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2790",
+    "stock": 12
   },
   {
     "title": "18 Dementor",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dementor-150x150.png",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2050",
+    "stock": 11
   },
   {
     "title": "20 Cedric Diggory",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/HP2-150x150.jpg",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2100",
+    "stock": 16
   },
   {
     "title": "22 Neville Longbottom",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/HP4-150x150.jpg",
     "series": "Harry Potter",
-    "price": "2000"
+    "price": "2000",
+    "stock": 13
   },
   {
     "title": "01 Batman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/01-Batman-150x150.jpg",
     "series": "DC",
-    "price": "2000"
-  },
-  {
-    "title": "01 Batman (Metallic Chase)",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/01-BatmanMetallicChase-150x150.jpg",
-    "series": "DC",
-    "price": "1800"
+    "price": "2500",
+    "stock": 10
   },
   {
     "title": "02 Robin",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/02-Robin-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2320",
+    "stock": 13
   },
   {
     "title": "03 Batgirl",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/03-Batgirl-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1950",
+    "stock": 12
   },
   {
     "title": "04 Penguin",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/04-Penguin-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2100",
+    "stock": 6
   },
   {
     "title": "05 The Riddler",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/05-Riddler-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1850",
+    "stock": 9
   },
   {
     "title": "06 Joker",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/06-Joker-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2700",
+    "stock": 7
   },
   {
     "title": "07 Superman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/07-Superman-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2320",
+    "stock": 5
   },
   {
     "title": "08 Wonder Woman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/08-WonderWoman-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2000",
+    "stock": 14
   },
   {
     "title": "09 Green Lantern",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/09-GreenLantern-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1800",
+    "stock": 19
   },
   {
     "title": "10 The Flash",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/10-Flash-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2200",
+    "stock": 6
   },
   {
     "title": "11 Hal Jordan",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/11-HalJordan-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1800",
+    "stock": 13
   },
   {
     "title": "12 Sinestro",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/12-Sinestro-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1900",
+    "stock": 12
   },
   {
     "title": "13 Two-Face",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/13-TwoFace-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1860",
+    "stock": 11
   },
   {
     "title": "14 Shazam!",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/14-Shazam-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1950",
+    "stock": 8
   },
   {
     "title": "15 Green Arrow",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/15-GreenArrow-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2300",
+    "stock": 6
   },
   {
-    "title": "16 Aquadman",
+    "title": "16 Aquaman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/16-Aquaman-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1760",
+    "stock": 12
   },
   {
     "title": "17 Hawkman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/17-Hawkman-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1800",
+    "stock": 7
   },
   {
     "title": "18 Martian Manhunter",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/18-MartainManHunter-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1930",
+    "stock": 11
   },
   {
     "title": "19 Kark Knight Batman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/19-BatmanDK-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2800",
+    "stock": 3
   },
   {
     "title": "20 Bane",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/20-BaneDK-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2100",
+    "stock": 6
   },
   {
     "title": "21 Catwoman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/21-CatwomanDK-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1800",
+    "stock": 2
   },
   {
     "title": "22 The Black Flash",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/22-TheBlackFlash-150x150.jpg",
     "series": "DC",
-    "price": "1800"
-  },
-  {
-    "title": "23 Domo Batman",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/23-DomoBatman-150x150.jpg",
-    "series": "DC",
-    "price": "1800"
-  },
-  {
-    "title": "26 Domo The Flash",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/26-DomoTheFlash-150x150.jpg",
-    "series": "DC",
-    "price": "1800"
+    "price": "2600",
+    "stock": 1
   },
   {
     "title": "34 Harley Quinn",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/34-HarleyQuinn-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2050",
+    "stock": 3
   },
   {
     "title": "35 Darkseid",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/35-Darkseid-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1790",
+    "stock": 2
   },
   {
     "title": "36 The Joker",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/36-TheJoker-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2350",
+    "stock": 13
   },
   {
     "title": "37 The Joker (with Clown Mask)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/37-TheJoker-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2290",
+    "stock": 13
   },
   {
     "title": "40 Nightwing",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/40-NightWing-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1870",
+    "stock": 10
   },
   {
     "title": "48 Judge Dredd",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/48-JudgeDredd-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "1900",
+    "stock": 12
   },
   {
     "title": "84 Batman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/batman1-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2350",
+    "stock": 15
   },
   {
     "title": "85 Superman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/supermanpop1-150x150.png",
     "series": "DC",
-    "price": "1800"
+    "price": "2300",
+    "stock": 8
   },
   {
     "title": "87 Aquaman",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/aquamanpop1-150x150.png",
     "series": "DC",
-    "price": "1800"
+    "price": "1890",
+    "stock": 3
   },
   {
     "title": "90 Superman Soldier",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/supermansoldier-150x150.png",
     "series": "DC",
-    "price": "1800"
+    "price": "1790",
+    "stock": 7
   },
   {
     "title": "91 Firestorm",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/firestorm-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2249",
+    "stock": 1
   },
   {
     "title": "92 Black Manta",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/blackmanta-150x150.jpg",
     "series": "DC",
-    "price": "1800"
+    "price": "2020",
+    "stock": 3
   },
   {
     "title": "01 Thor",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/01-Thor-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2980",
+    "stock": 18
   },
   {
     "title": "02 Loki",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/02-Loki-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2980",
+    "stock": 14
   },
   {
     "title": "03 Spider-Man",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/03SpiderMan-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2990",
+    "stock": 2
   },
   {
     "title": "05 Wolverine",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/05-Wolverine-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2600",
+    "stock": 12
   },
   {
     "title": "06 Captain America",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/06-CaptainAmericaOG-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2950",
+    "stock": 15
   },
   {
     "title": "06 Unmasked Captain America [Comikaze]",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Screen-Shot-2014-10-01-at-2.12.33-PM-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 3
   },
   {
     "title": "07 Red Skull",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/07-Red-Skull-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2860",
+    "stock": 5
   },
   {
     "title": "08 The Hulk",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/08-TheHulkOG-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 4
   },
   {
     "title": "09 The Thing",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/09-TheThing-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2760",
+    "stock": 7
   },
   {
     "title": "10 Captain America (Avengers)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/10-CaptainAmerica-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 10
   },
   {
     "title": "11 Iron Man (Avengers)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/11-IronMan-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 10
   },
   {
     "title": "12 Thor (Avengers)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/12-Thor-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 10
   },
   {
     "title": "13 The Hulk (Avengers)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/13-TheHulk-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 10
   },
   {
     "title": "14 Nick Fury (Avengers)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/14-NickFury-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 10
   },
   {
     "title": "17 Dr. Doom",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/17-drdoom-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 2
   },
   {
     "title": "18 Ghost Rider",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/18-ghostrider-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2960",
+    "stock": 2
   },
   {
     "title": "19 Silver Surfer",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/19-silversurfer-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 6
   },
   {
     "title": "20 Deadpool",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/20-deadpool-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3600",
+    "stock": 13
   },
   {
     "title": "23 Iron Man",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/23-IronMan-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 8
   },
   {
-    "title": "26 Deep Space Suit",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/26-DeepSpaceSuit-150x150.jpg",
-    "series": "Marvel",
-    "price": "2900"
-  },
-  {
-    "title": "27 Phoenix (ECCC 2013)",
+    "title": "27 Phoenix",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/27-Phoenix-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2760",
+    "stock": 2
   },
   {
     "title": "28 Logan",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/28-Logan-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2980",
+    "stock": 3
   },
   {
     "title": "32 Tony Stark",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/32-TonyStark-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 5
   },
   {
     "title": "33 James Rhodes",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/33-JamesRhodes-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2600",
+    "stock": 3
   },
   {
     "title": "34 Peter Parker (Comikaze Exclusive)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/12488489044_fd1d6dfb7a_b-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3200",
+    "stock": 9
   },
   {
     "title": "35 Thor",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/35-Thor-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 6
   },
   {
     "title": "36 Loki",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/36-Loki-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 6
   },
   {
     "title": "37 Dark Elf",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/37-DarkElf-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2350",
+    "stock": 11
   },
   {
     "title": "40 Wolverine",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/MAR40-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 4
   },
   {
     "title": "41 Captain America",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/41-CaptainAmerica-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 6
   },
   {
     "title": "42 Black Widow",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/42-BlackWidow-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 5
   },
   {
     "title": "43 Winter Soldier (Unmasked)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/43-WinterSoldier-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3070",
+    "stock": 17
   },
   {
     "title": "45 Spider-Man",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/45-SpiderMan-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 19
   },
   {
     "title": "46 Electro",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/46-Electro-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 14
   },
   {
     "title": "47 Star-Lord",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/StarLord2-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 2
   },
   {
     "title": "48 Rocket Racoon",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/RocketRacoon-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 5
   },
   {
     "title": "49 Groot",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Groot-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3600",
+    "stock": 4
   },
   {
     "title": "50 Drax",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Drax-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 3
   },
   {
     "title": "51 Gamora",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Gamora-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 17
   },
   {
     "title": "53 Agent Coulson (Agents of S.H.I.E.L.D)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/53-Agent-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 6
   },
   {
     "title": "54 Odin",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/odin-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 10
   },
   {
     "title": "55 Heimdall",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/heimdall-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 7
   },
   {
     "title": "56 Lady Sif",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/ladysif-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 6
   },
   {
     "title": "57 Professor X",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/professorx-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2850",
+    "stock": 7
   },
   {
     "title": "58 Cyclops",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/cyclops-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 20
   },
   {
     "title": "59 Storm",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/storm-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 2
   },
   {
     "title": "60 Colossus",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/colossus-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 10
   },
   {
     "title": "61 Mystique",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/mystique-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 15
   },
   {
     "title": "62 Magneto",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/magneto-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 14
   },
   {
     "title": "64 Howard the Duck",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/HowardtheDuck-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 11
   },
   {
     "title": "66 Avengers 2 Iron Man Mark 43",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/ironm-an-mark-43-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3800",
+    "stock": 19
   },
   {
     "title": "67 Avengers 2 Captain America",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/CapnAmerica-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3060",
+    "stock": 7
   },
   {
     "title": "68 Avengers 2 Hulk",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/hulk1-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3060",
+    "stock": 14
   },
   {
     "title": "69 Avengers 2 Thor",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/thor1-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3060",
+    "stock": 10
   },
   {
     "title": "70 Avengers 2 Hawkeye",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/hawkeye1-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3060",
+    "stock": 6
   },
   {
     "title": "71 Avengers 2 Vision",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/vision-150x136.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3060",
+    "stock": 5
   },
   {
     "title": "72 Avengers 2 Ultron",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/ultron1-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3060",
+    "stock": 6
   },
   {
     "title": "79 Black Suit Spider-man ",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/blacksuitspiderman-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3800",
+    "stock": 4
   },
   {
     "title": "80 The Punisher",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/punisherwg-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3040",
+    "stock": 8
   },
   {
     "title": "82 Venom",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/venom-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 12
   },
   {
     "title": "85 Ant-Man",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/antman-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3500",
+    "stock": 10
   },
   {
     "title": "86 YellowJacket",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/yj-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 16
   },
   {
     "title": "88 Agent May",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/agentmay-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2910",
+    "stock": 15
   },
   {
     "title": "90 Red Daredevil",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/reddare-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2800",
+    "stock": 13
   },
   {
     "title": "91 Black Widow",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/blackwidow-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3140",
+    "stock": 4
   },
   {
     "title": "95 Scarlet Witch",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/scarletwitch-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3200",
+    "stock": 18
   },
   {
     "title": "96 Agent Carter",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/agentcarterfunko-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2700",
+    "stock": 17
   },
   {
     "title": "99 Carnage",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/carnage-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3200",
+    "stock": 7
   },
   {
     "title": "103 Black Widow",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/blackwidowshield2-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 2
   },
   {
-    "title": "104 Morbius *MCC*",
+    "title": "104 Morbius",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/morbius-e1446414932777-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3030",
+    "stock": 6
   },
   {
     "title": "106 Punisher (Thunderbolts)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Screen-Shot-2015-10-20-at-6.56.42-AM-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2600",
+    "stock": 6
   },
   {
     "title": "107 Iron Spider",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/iron-spider-funko-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 8
   },
   {
     "title": "111 Two Swords Deadpool",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/image-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3600",
+    "stock": 14
   },
   {
     "title": "118 Punisher (Nemesis)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/punisher-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3150",
+    "stock": 6
   },
   {
     "title": "120 Daredevil",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/DD2-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3120",
+    "stock": 8
   },
   {
     "title": "121 Matt Murdock",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dd4-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3060",
+    "stock": 5
   },
   {
     "title": "122 Wilson Fisk",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dd3-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3070",
+    "stock": 6
   },
   {
     "title": "129 Winter Soldier",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/wintersoldier-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2910",
+    "stock": 8
   },
   {
     "title": "130 Black Panther",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/blackpanther-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3100",
+    "stock": 11
   },
   {
     "title": "138 Black Panther Unmasked",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/walgreenspanther-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
-  },
-  {
-    "title": "139 Barnes and Noble Exclusive Unmasked Crossbones.",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/unmaskedcb-150x150.jpg",
-    "series": "Marvel",
-    "price": "2900"
+    "price": "3050",
+    "stock": 12
   },
   {
     "title": "140 Target Exclusive Crossbones with Battle Damage",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/targetcrossbones-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2940",
+    "stock": 7
   },
   {
     "title": "145 Suit Up Deadpool",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/145deadpoolsuit-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3420",
+    "stock": 5
   },
   {
     "title": "146 Spider-Gwen",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/spidergwen-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 2
   },
   {
     "title": "147 She-Hulk",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/shehulk-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 3
   },
   {
     "title": "148 Captain Marvel",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/captainmarvel-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 4
   },
   {
     "title": "149 Doctor Strange",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/doctorstrange-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "3120",
+    "stock": 6
   },
   {
     "title": "150 Doctor Octopus",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/doctoroctopus-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2800",
+    "stock": 3
   },
   {
     "title": "151 Classic Falcon",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/classicfalcon-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2680",
+    "stock": 11
   },
   {
     "title": "153 Spider-Gwen Unhooded",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Screen-Shot-2016-05-22-at-4.41.10-PM-150x150.png",
     "series": "Marvel",
-    "price": "2900"
-  },
-  {
-    "title": "154 Captain Marvel Masked",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/gtscaptainmarvelmasked-150x150.png",
-    "series": "Marvel",
-    "price": "2900"
+    "price": "3000",
+    "stock": 14
   },
   {
     "title": "155 Star Lord with Mixed Tape",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/starlordmixedtape-150x150.png",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2900",
+    "stock": 15
   },
   {
     "title": "160 Action Popsed Spider-man (MCC)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/spidermanpop5-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2980",
+    "stock": 12
   },
   {
     "title": "161 Doctor Strange w/Rune",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/10144_Dr_Strange_SDCC_hires_large-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2990",
+    "stock": 11
   },
   {
     "title": "171Ancient One",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/ancientoneDoctorStrange-150x150.jpg",
     "series": "Marvel",
-    "price": "2900"
+    "price": "2920",
+    "stock": 7
   },
   {
     "title": "09 Goku (Dragonball Z)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Goku-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "3200",
+    "stock": 9
   },
   {
     "title": "10 Vegeta  (Dragonball Z)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dbz2-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "3200",
+    "stock": 9
   },
   {
     "title": "11 Piccolo  (Dragonball Z)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dbz5-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "3100",
+    "stock": 5
   },
   {
     "title": "12 Frieza (Final Form)  (Dragonball Z)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dbz1-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "3200",
+    "stock": 4
   },
   {
     "title": "13 Perfect Cell  (Dragonball Z)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dbz3-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "3200",
+    "stock": 6
   },
   {
     "title": "14 Super Saiyan Goku (Dragonball Z)",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/dbz4-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "3300",
+    "stock": 10
   },
   {
     "title": "27 Futurama Fry",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/fry-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2900",
+    "stock": 6
   },
   {
     "title": "28 Futurama Leela",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/leela-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2850",
+    "stock": 4
   },
   {
     "title": "29 Futurama Bender",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/bender-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "3000",
+    "stock": 9
   },
   {
     "title": "31 Family Guy Peter",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/peter1-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2780",
+    "stock": 5
   },
   {
     "title": "32 Family Guy Brian",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/brian-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2750",
+    "stock": 7
   },
   {
     "title": "33 Family Guy Stewie",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/stewie-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "3100",
+    "stock": 15
   },
   {
     "title": "36 Secret Squirrel",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/fk0947-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2500",
+    "stock": 3
   },
   {
     "title": "37 Morocco Mole",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/fk0946-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2500",
+    "stock": 4
   },
   {
     "title": "38 Dick Dastardly",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/fk0949-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2500",
+    "stock": 4
   },
   {
     "title": "39 Muttley",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/fk0950-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2800",
+    "stock": 4
   },
   {
     "title": "40 Lil Gruesome",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/fk0948-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2560",
+    "stock": 5
   },
   {
     "title": "41 Gigantor",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/gigantorpop-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2800",
+    "stock": 3
   },
   {
     "title": "42 Snake Eyes",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/snakeeyes-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "2350",
+    "stock": 2
   },
   {
     "title": "48 Charlie Brown",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/charliebrown1-150x142.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2500",
+    "stock": 5
   },
   {
     "title": "49 Snoopy and Woodstock",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/snoopy-150x141.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2800",
+    "stock": 5
   },
   {
     "title": "53 Olaf",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/olaf53-150x150.jpeg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2300",
+    "stock": 5
   },
   {
     "title": "54 Professor Farnsworth",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/farnsworth-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "2680",
+    "stock": 2
   },
   {
     "title": "55 Zoidberg",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/zoidberg-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "2900",
+    "stock": 8
   },
   {
     "title": "56 Nibbler",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/nibbler-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "2820",
+    "stock": 6
   },
   {
     "title": "57 Zapp Brannigan",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/zapp-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "2680",
+    "stock": 6
   },
   {
     "title": "59 Ichigo",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/ichigo-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2880",
+    "stock": 7
   },
   {
     "title": "60 Rukia",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/rukia-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2880",
+    "stock": 5
   },
   {
     "title": "61 Ken Kaneki",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/61tokyoghoul-150x150.jpeg",
     "series": "Animation",
-    "price": "2680"
+    "price": "3000",
+    "stock": 15
   },
   {
     "title": "62 Touka Kirishima",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/62toukakirishima-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "300",
+    "stock": 14
   },
   {
     "title": "71 Naruto",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/naruto-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "3500",
+    "stock": 7
   },
   {
     "title": "72 Sasuki",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/sasuke-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "3450",
+    "stock": 8
   },
   {
     "title": "73 6' Kurama",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/kurama-150x150.png",
     "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "79 Soul",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/soul-150x150.png",
-    "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "80 Maka",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/maka-150x150.png",
-    "series": "Animation",
-    "price": "2680"
+    "price": "3600",
+    "stock": 13
   },
   {
     "title": "81 Asuna",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/81asuna-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "2800",
+    "stock": 12
   },
   {
     "title": "82 Kirito",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/82kirito-150x150.png",
     "series": "Animation",
-    "price": "2680"
+    "price": "2850",
+    "stock": 11
   },
   {
     "title": "85 Steven",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/85-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2680",
+    "stock": 5
   },
   {
     "title": "86 Garnet",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/86garnet-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2670",
+    "stock": 3
   },
   {
     "title": "87 Amethyst",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/87amethyst-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2680",
+    "stock": 3
   },
   {
     "title": "88 Pearl",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/88pearl-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2620",
+    "stock": 3
   },
   {
     "title": "89 Sailor Moon",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/sailormoon-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "95 Tuxedo Mask",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/tuxedomaskvunko-150x150.jpg",
-    "series": "Animation",
-    "price": "2680"
+    "price": "2750",
+    "stock": 5
   },
   {
     "title": "96 Hollow Ichigo",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/hollowichicagopopvinyl-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2800",
+    "stock": 5
   },
   {
     "title": "98 Monkey D Luffy",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/onepiece2-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "99 Tony Tony Chopper",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/onepiece1-150x150.jpg",
-    "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "100 Portgas D. Ace",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/onepiee3-150x150.jpg",
-    "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "101 Trafalgar, Law",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/onepiece4-150x150.jpg",
-    "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "102 Beefsquatch",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/beefsquatch-150x150.jpg",
-    "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "103 Teddy",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/teddy-150x150.jpg",
-    "series": "Animation",
-    "price": "2"
-  },
-  {
-    "title": "104 Buttloose Tina",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/buttloosetina-150x150.jpg",
-    "series": "Animation",
-    "price": "2680"
+    "price": "2700",
+    "stock": 6
   },
   {
     "title": "106 Gohan",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/gohandbz-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2900",
+    "stock": 10
   },
   {
     "title": "107 Trunks",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/trunksdbz-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2900",
+    "stock": 10
   },
   {
     "title": "108 Bulma",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/bulmadbz-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2900",
+    "stock": 10
   },
   {
     "title": "109 Goku & Flying Nimbus",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/gokunimbusdbz-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "3600",
+    "stock": 10
   },
   {
     "title": "110 Krillin",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/krillindbz-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
+    "price": "2900",
+    "stock": 10
   },
   {
     "title": "111 Majin Buu",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/majinbuudbz-150x150.jpg",
     "series": "Animation",
-    "price": "2680"
-  },
-  {
-    "title": "144 K-9",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/k9-150x150.jpg",
-    "series": "Animation",
-    "price": "2680"
+    "price": "2980",
+    "stock": 10
   },
   {
     "title": "01 Mickey Mouse",
