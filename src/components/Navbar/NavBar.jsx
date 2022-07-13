@@ -1,7 +1,7 @@
-import imagen from '../img/funkoyo.png';
-import './main.css';  
+import imagen from '../../img/funkoyo.png';
+import '../main.css';  
 import Icon from './CartWidget.jsx'
-import logo from '../img/Logo.webp';
+import logo from '../../img/Logo.webp';
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'

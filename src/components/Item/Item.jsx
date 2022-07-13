@@ -1,4 +1,4 @@
-import ItemCount from './ItemCount.jsx';
+import ItemCount from "./ItemCount";
 
 function Item(props){
     return(

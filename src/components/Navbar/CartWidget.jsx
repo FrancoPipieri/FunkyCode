@@ -1,4 +1,4 @@
-import icon from '../img/Cart.png';
+import icon from '../../img/Cart.png'
 
 function IconWidget(){
     return(
