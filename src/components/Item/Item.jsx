@@ -1,5 +1,3 @@
-import ItemCount from "./ItemCount";
-
 function Item(props){
     return(
       <div className="group bg-white rounded-md">
@@ -14,8 +12,8 @@ function Item(props){
       <h3 className="mt-4 text-sm text-gray-700">{props.title}</h3>
       <h4 className="mt-4 text-sm text-gray-700">{props.series}</h4>
       <p className="mt-1 text-lg font-medium text-gray-900">${props.price}</p>
-      </div>
-      <ItemCount stock={7} initial={1}/>
+      </div>  
+      <a href="#" className="button">Detalles</a>
     </div>
     )
 }

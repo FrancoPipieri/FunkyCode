@@ -7,9 +7,9 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Inicio', href: '#', current: true },
-  { name: 'Catalogo', href: '#', current: false },
-  { name: 'Finder', href: '#', current: false },
+  { name: 'Inicio', href: '#'},
+  { name: 'Catalogo', href: '#'},
+  { name: 'Finder', href: '#'}
 ]
 
 function classNames(...classes) {
