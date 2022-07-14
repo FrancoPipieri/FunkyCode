@@ -11,10 +11,9 @@ function ItemDetailConteiner(props) {
       },[])
     
     const [detail, setDetail] = useState([]);
-    console.log(detail[0])
   return (
     <div>
-        <ItemDetail detail={detail}/>
+        <ItemDetail detail={detail[11]}/>
     </div>
   )
 }
