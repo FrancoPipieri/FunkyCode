@@ -9,8 +9,11 @@ function ItemDetailConteiner(props) {
             .then(json => setDetail(json));
         }, 2000);
       },[])
-    
+
     const [detail, setDetail] = useState([]);
+      
+    if(detail.length == 0) return <h1>Loading...</h1>
+
   return (
     <div>
         <ItemDetail detail={detail[11]}/>

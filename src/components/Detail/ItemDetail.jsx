@@ -1,6 +1,8 @@
 import ItemCount from '../Item/ItemCount'
 function ItemDetail({detail}) {
+
     const {title, price, filename, stock, series} = detail;
+    
   return (
     <section className="body py-10">
         <div className="w-2/4 bg-neutral-300 m-auto">
