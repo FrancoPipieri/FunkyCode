@@ -27,7 +27,7 @@ function ItemCount(props){
              <div>
                 <div className="flex justify-between rounded border-black border h-10">
                  <button className=" w-10 border border-gray-400" onClick={resta}> -</button>
-                 <span className="w-8 align-center">{count}</span>
+                 <span className="w-8 self-center">{count}</span>
                  <button className="w-10 border border-gray-400" onClick={suma}> +</button>
                 </div>
                 <div>
