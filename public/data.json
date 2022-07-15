@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "title": "Rubeus Hagrid 6",
+    "title": "Rubeus Hagrid",
     "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/Hagrid-150x150.png",
     "series": "Harry Potter",
     "price": "3500",
@@ -222,13 +222,6 @@
     "series": "DC",
     "price": "1860",
     "stock": 11
-  },
-  {
-    "title": "Shazam!",
-    "filename": "https://github.com/annsonn/funko-pop-catalog/raw/master/funko-pop-images/14-Shazam-150x150.jpg",
-    "series": "DC",
-    "price": "1950",
-    "stock": 8
   },
   {
     "id": 29,
