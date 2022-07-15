@@ -1,11 +1,12 @@
 import ItemCount from '../Item/ItemCount'
+
 function ItemDetail({detail}) {
 
-    const {title, price, filename, stock, series} = detail;
+    const {title, price, filename, stock, series, id} = detail;
 
   return (
     <section className="body py-10">
-        <div className="w-2/4 bg-neutral-300 m-auto">
+        <div className="w-2/4 bg-neutral-300 m-auto rounded-md">
             <h2 className="font-bold text-2xl text-center p-4">{title}</h2>
             <div className="flex justify-around my-4">
                 <img src={filename} alt={title} className="m-4 h-4/6 w-2/6"/>

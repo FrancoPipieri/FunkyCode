@@ -1,36 +1,23 @@
 import {useState , useEffect} from 'react';  
 import ItemDetail from '../Detail/ItemDetail.jsx';
+import Loader from '../Utils/Loader.jsx';
 
 function ItemDetailConteiner(props) {
-  //   useEffect(()=>{
-  //       setTimeout(() => {
-  //         fetch('/data.json')
-  //           .then(response => response.json())
-  //           .then(json => setDetail(json));
-  //       }, 2000);
-  //     },[])
 
-  //   const [detail, setDetail] = useState([]);
-      
-  //   if(detail.length == 0) return <h1>Loading...</h1>
-
-  // return (
-  //   <div>
-  //       <ItemDetail detail={detail[11]}/>
-  //   </div>
-  // )
   useEffect(()=>{
     setTimeout(() => {
+      setLoading(false)
           fetch('/data.json')
             .then(response => response.json())
-            .then(json => setItem(json.find(data => data.id == 12)));},2000);},[])
+            .then(json => setItem(json.find(data => data.id == 12)));
+          }, 2000);
+          },[]);
 
 const [getItem, setItem] = useState([])
-console.log(getItem)
+const [loader, setLoading] = useState(true)
+
 return(
-  <div>
-    <ItemDetail detail={getItem}/>
-  </div>
+  <>{loader ? <Loader/> : <ItemDetail detail={getItem}/>}</>
 )
 
 }
