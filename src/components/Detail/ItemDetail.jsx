@@ -1,7 +1,7 @@
 import ItemCount from '../Item/ItemCount'
 
 function ItemDetail(props) {
-
+    console.log(props)
     const {title, price, filename, stock, series,} = props;
 
   return (
