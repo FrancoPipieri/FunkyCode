@@ -10,9 +10,9 @@ function App() {
       <NavBar />
      <hr/>
       <Routes>
-        {/* <Route index element={<ItemListConteiner />}/> */}
+        <Route index element={<ItemListConteiner />}/>
         <Route path='/series/:serie' element={<ItemListConteiner />} />
-        <Route index element={<ItemDetailConteiner />} />
+        <Route path='/details/:id' element={<ItemDetailConteiner />} />
       </Routes>
     </BrowserRouter>
   </>
