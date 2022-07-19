@@ -1,15 +1,21 @@
 import ItemListConteiner from './components/Conteiner/ItemListConteiner.jsx';
 import NavBar from './components/Navbar/NavBar.jsx';
 import ItemDetailConteiner from './components/Conteiner/ItemDetailConteiner.jsx';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <>
-    <NavBar />
-    <hr/>
-    <ItemDetailConteiner/>
-    <ItemListConteiner />
-    </>
+  <>
+    <BrowserRouter>
+      <NavBar />
+     <hr/>
+      <Routes>
+        {/* <Route index element={<ItemListConteiner />}/> */}
+        <Route path='/series/:serie' element={<ItemListConteiner />} />
+        <Route index element={<ItemDetailConteiner />} />
+      </Routes>
+    </BrowserRouter>
+  </>
   );
 }
 

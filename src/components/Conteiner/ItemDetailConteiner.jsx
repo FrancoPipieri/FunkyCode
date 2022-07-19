@@ -1,23 +1,24 @@
 import {useState , useEffect} from 'react';  
 import ItemDetail from '../Detail/ItemDetail.jsx';
 import Loader from '../Utils/Loader.jsx';
+import { getItem } from '../Utils/AsyncMock.jsx'
 
 function ItemDetailConteiner(props) {
+  const [product, setProduct] = useState()
+  const [loader, setLoading] = useState(false);
+  const id = 1;
 
-  useEffect(()=>{
-    setTimeout(() => {
-      setLoading(false)
-          fetch('/data.json')
-            .then(response => response.json())
-            .then(json => setItem(json.find(data => data.id == 12)));
-          }, 2000);
-          },[]);
+  useEffect(() => {
+    setLoading(true);
+    getItem(id)
+      .then((res) => setProduct({ ...res, id }))
+      .catch((err) => console.log(err))
+      .finally(() => setLoading(false));
+  }, []);
 
-const [getItem, setItem] = useState([])
-const [loader, setLoading] = useState(true)
 
 return(
-  <>{loader ? <Loader/> : <ItemDetail detail={getItem}/>}</>
+  <>{loader ? <Loader/> : <ItemDetail {...product} />}</>
 )
 
 }

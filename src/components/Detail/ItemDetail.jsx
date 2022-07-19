@@ -1,8 +1,8 @@
 import ItemCount from '../Item/ItemCount'
 
-function ItemDetail({detail}) {
+function ItemDetail(props) {
 
-    const {title, price, filename, stock, series, id} = detail;
+    const {title, price, filename, stock, series,} = props;
 
   return (
     <section className="body py-10">

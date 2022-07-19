@@ -5,6 +5,7 @@ import logo from '../../img/Logo.webp';
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import {Link} from 'react-router-dom';
 
 const navigation = [
   { name: 'Inicio', href: '#'},
@@ -36,6 +37,7 @@ function NavBar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 block items-center">
+                  <Link to={"/"}>
                   <img
                     className="block lg:hidden h-24 w-auto"
                     src={imagen}
@@ -46,6 +48,7 @@ function NavBar() {
                     src={logo}
                     alt="logo2"
                   />
+                  </Link>
                  
                 
                 </div>
