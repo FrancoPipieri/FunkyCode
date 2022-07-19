@@ -12,7 +12,6 @@ function ItemDetailConteiner(props) {
     setLoading(true);
     getItem(id)
       .then((res) => setProduct({ ...res, id }))
-      .catch((err) => console.log(err))
       .finally(() => setLoading(false));
   }, []);
 
