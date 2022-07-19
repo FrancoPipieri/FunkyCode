@@ -40,7 +40,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox=
 }
 .dropbtn {
     background-color: black;
-    color: #f3f2c9;
+    color: white;
     padding: 10px;
     font-size: 16px;
     border: none;
@@ -80,14 +80,14 @@ background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox=
     margin-bottom: 8px; }
   
   .pie__titulo--md {
-    color: #f3f2c9;
+    color: white;
     padding: 10px 0;
     font-size: 1.8rem;
     text-align: center; }
   
   .pie__enlace--sm {
     padding: 0 30px;
-    color: #f3f2c9;
+    color: white;
     font-size: 1.4rem; }
 
     .pie__enlace--sm:hover {
