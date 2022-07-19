@@ -5,10 +5,10 @@ import { getItem } from '../Utils/AsyncMock.jsx'
 import {useParams} from 'react-router-dom';
 
 function ItemDetailConteiner(props) {
-  const [product, setProduct] = useState()
+  const [product, setProduct] = useState([])
   const [loader, setLoading] = useState(false);
-  const id = 1;
-
+  const  {id}  = useParams();
+  
   useEffect(() => {
     setLoading(true);
     getItem(id)

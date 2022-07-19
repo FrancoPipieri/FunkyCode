@@ -11,8 +11,8 @@ function App() {
      <hr/>
       <Routes>
         <Route index element={<ItemListConteiner />}/>
-        <Route path='/series/:serie' element={<ItemListConteiner />} />
-        <Route path='/details/:id' element={<ItemDetailConteiner />} />
+        <Route path='series/:serie' element={<ItemListConteiner />} />
+        <Route path='item/:id' element={<ItemDetailConteiner />} />
       </Routes>
     </BrowserRouter>
   </>

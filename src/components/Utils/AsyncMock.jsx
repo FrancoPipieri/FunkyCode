@@ -5,7 +5,7 @@ export const getItem = (id) => {
     setTimeout(() => {
       res(
         data.find(
-          (item) => item.id === id
+          (item) => item.id == id
         )
       );
     }, 2000);

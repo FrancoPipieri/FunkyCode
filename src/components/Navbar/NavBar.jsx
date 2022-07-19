@@ -60,7 +60,7 @@ function NavBar() {
                 <button class="dropbtn">Serie</button>
                   <div className="dropdown-content flex  justify-end">
                     {navigation.map((item) => (
-                      <Link to={`/series/${item.name}`}>
+                      <Link to={`series/${item.name}`}>
                       <a
                         key={item.name}
                         href={item.href}
@@ -146,7 +146,7 @@ function NavBar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <Link to={`/series/${item.name}`}>
+                <Link to={`series/${item.name}`}>
                 <Disclosure.Button
                   key={item.name}
                   as="a"
