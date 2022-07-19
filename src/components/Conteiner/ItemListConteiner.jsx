@@ -16,6 +16,7 @@ function ItemListConteiner(props) {
   });
 
   const getFunkos = async() => {
+
       promise.then((res) => {
         const products = res;
         if(serie){
