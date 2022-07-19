@@ -8,9 +8,13 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import {Link} from 'react-router-dom';
 
 const navigation = [
-  { name: 'Inicio', href: '#'},
-  { name: 'Catalogo', href: '#'},
-  { name: 'Finder', href: '#'}
+  { name: 'Harry Potter', href: '#'},
+  { name: 'DC', href: '#'},
+  { name: 'Marvel', href: '#'},
+  { name: 'Animation', href: '#'},
+  { name: 'Disney', href: '#'},
+  { name: 'Movies', href: '#'},
+  { name: 'Rides', href: '#'}
 ]
 
 function classNames(...classes) {
@@ -52,14 +56,15 @@ function NavBar() {
                  
                 
                 </div>
-                <div className=" flex hidden sm:block sm:ml-6 self-center">
-                  <div className="flex space-x-4 justify-end">
+                <div className=" dropdown flex invisible sm:visible sm:ml-6 self-center">
+                <button class="dropbtn">Serie</button>
+                  <div className="dropdown-content flex  justify-end">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'enlaces hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900' : 'enlaces hover:bg-gray-700',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
