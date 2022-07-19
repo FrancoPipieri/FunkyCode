@@ -40,7 +40,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox=
 }
 .dropbtn {
     background-color: black;
-    color: white;
+    color: #f3f2c9;
     padding: 10px;
     font-size: 16px;
     border: none;
@@ -69,3 +69,27 @@ background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox=
 .dropdown-content a:hover {background-color: white;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: grey;}
+
+.pie {
+    font-size: 1.6rem;
+    background: radial-gradient(circle, rgb(37, 36, 36) 0%, rgb(0, 0, 0) 70%);
+    flex-direction: column; }
+  
+  .footer_nav {
+    flex-direction: row;
+    margin-bottom: 8px; }
+  
+  .pie__titulo--md {
+    color: #f3f2c9;
+    padding: 10px 0;
+    font-size: 1.8rem;
+    text-align: center; }
+  
+  .pie__enlace--sm {
+    padding: 0 30px;
+    color: #f3f2c9;
+    font-size: 1.4rem; }
+
+    .pie__enlace--sm:hover {
+      font-weight: 600;
+      transition: all 0.2s; }
