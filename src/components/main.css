@@ -39,9 +39,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox=
     transition: background-color 2s;
 }
 .dropbtn {
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 16px;
     border: none;
 }
@@ -70,6 +70,14 @@ background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox=
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: grey;}
 
+.btndisabled {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    margin: auto 10px;
+}
 .pie {
     font-size: 1.6rem;
     background: radial-gradient(circle, rgb(37, 36, 36) 0%, rgb(0, 0, 0) 70%);

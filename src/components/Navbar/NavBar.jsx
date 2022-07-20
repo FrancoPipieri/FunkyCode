@@ -55,8 +55,8 @@ function NavBar() {
                  
                 
                 </div>
-                <div className=" dropdown flex invisible sm:visible sm:ml-6 self-center">
-                <button class="dropbtn">Serie</button>
+                <div className=" dropdown flex invisible sm:visible sm:ml-6 self-center absolute sm:relative">
+                  <button class="dropbtn rounded">Serie</button>
                   <div className="dropdown-content flex  justify-end">
                     {navigation.map((item) => (
                       <Link to={`Category/${item.name}`}>
@@ -75,6 +75,7 @@ function NavBar() {
                     ))}
                   </div>
                 </div>
+                <button className='text-gray-400 mx-4 btndisabled invisible sm:visible absolute sm:relative' disabled> Sobre Nosotros</button>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
