@@ -1,24 +1,24 @@
 import React, { useState } from "react";
 
-function ItemCount(props){
+function ItemCount({stock, initial, onAdd}){
 
-    const [count, setCount] = useState(props.initial);
-
+    const [count, setCount] = useState(initial);
 
     function suma(){
-        if(count < props.stock){
+        if(count < stock){
         setCount(count + 1);
         }
     }
-
     function resta(){
-        if(count > 1){
+        if(count >= 1){
             setCount(count - 1);
         }
     }
-
-    function agregar(){
-        alert("Se agregaron "+ count +" articulos al carrito")
+    const updateInput = (e)=>{
+        const {valor} = e.target;
+        if(valor <= stock){
+            setCount(isNaN(valor) ? 0 : parseInt(valor))
+        }
     }
 
     return(
@@ -27,11 +27,11 @@ function ItemCount(props){
              <div>
                 <div className="flex justify-between rounded border-black border h-10">
                  <button className=" w-10 border border-gray-400" onClick={resta}> -</button>
-                 <span className="w-8 self-center">{count}</span>
+                 <input onChange={(e)=>updateInput(e)} className="w-8 text-center" value={count} type="number" />
                  <button className="w-10 border border-gray-400" onClick={suma}> +</button>
                 </div>
                 <div>
-                    <button className="rounded border border-gray-500 m-2 p-0.5" onClick={agregar}> Agregar a Carrito</button>
+                    <button className="rounded border border-gray-600 m-2 p-0.5 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 disabled:bg-slate-50" onClick={()=> onAdd(count)} disabled={count === 0 || count === " "}> Agregar a Carrito</button>
                 </div>
              </div>
             </div>

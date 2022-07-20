@@ -14,6 +14,7 @@ function App() {
         <Route index element={<ItemListConteiner />}/>
         <Route path='Category/:serie' element={<ItemListConteiner />} />
         <Route path='item/:id' element={<ItemDetailConteiner />} />
+        <Route path='/cart' element={<div><h1>Carrito</h1></div>} />
       </Routes>
       <Footer />
     </BrowserRouter>

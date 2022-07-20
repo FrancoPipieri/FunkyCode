@@ -1,8 +1,16 @@
 import ItemCount from '../Item/ItemCount'
-
+import {useState} from 'react';
+import { useNavigate } from 'react-router-dom'
 function ItemDetail(props) {
-    console.log(props)
     const {title, price, filename, stock, series,} = props;
+    const [cant, setCant] = useState(0);
+
+    const onAdd = (cant)=>{
+        setCant(cant)
+    }
+    const navigate = useNavigate();
+    
+    function aCarrito(){ navigate("/cart") }
 
   return (
     <section className="body py-10">
@@ -19,7 +27,12 @@ function ItemDetail(props) {
                         <p className="text-gray-700">- Figura Coleccionable <br />
                            - Su cabeza es Estilo Bobblehead <br />
                            - Altura : 16.5mm</p>
-                        <ItemCount stock={stock} initial={1} />
+                        <div className='text-center'>
+                        {cant == 0 ?(<ItemCount stock={stock} initial={0} onAdd={onAdd} />):
+                        (<><p className='text-gray-900 text-center  '>A agregado {cant} {cant== 1 ?("Item"):("Items")}</p>
+                        <button className='rounded border bg-violet-500 p-2 m-2 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300' onClick={aCarrito}>Ir al Carrito</button></>)}
+                        
+                        </div>
                     </div>
                 </div>
             </div>
