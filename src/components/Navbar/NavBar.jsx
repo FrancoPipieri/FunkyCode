@@ -1,26 +1,33 @@
 import imagen from '../../img/funkoyo.png';
 import '../main.css';  
-import Icon from './CartWidget.jsx'
+import Icon from './CartWidget.jsx';
 import logo from '../../img/Logo.webp';
-import { Disclosure} from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Disclosure} from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import {Link} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 
-const navigation = [
-  { name: 'Harry Potter', href: '#'},
-  { name: 'DC', href: '#'},
-  { name: 'Marvel', href: '#'},
-  { name: 'Animation', href: '#'},
-  { name: 'Disney', href: '#'},
-  { name: 'Movies', href: '#'},
-  { name: 'Rides', href: '#'}
-]
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 function NavBar() {
+
+  const navigation = [
+    { name: 'Harry Potter', href: '#'},
+    { name: 'DC', href: '#'},
+    { name: 'Marvel', href: '#'},
+    { name: 'Animation', href: '#'},
+    { name: 'Disney', href: '#'},
+    { name: 'Movies', href: '#'},
+    { name: 'Rides', href: '#'}
+  ]
+  
+  const navigate = useNavigate();
+      
+  function aCarrito(){ navigate("/cart") }
+  
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+  }
+
   return (
     <Disclosure as="nav" className="nav">
       {({ open }) => (
@@ -80,7 +87,7 @@ function NavBar() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
-                  className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                  className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" onClick={aCarrito}
                 >
                   <span className="sr-only">View notifications</span>
                   <Icon className="h-6 w-6" aria-hidden="true" />

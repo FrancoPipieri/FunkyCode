@@ -29,7 +29,7 @@ function ItemDetail(props) {
                            - Altura : 16.5mm</p>
                         <div className='text-center'>
                         {cant == 0 ?(<ItemCount stock={stock} initial={0} onAdd={onAdd} />):
-                        (<><p className='text-gray-900 text-center  '>A agregado {cant} {cant== 1 ?("Item"):("Items")}</p>
+                        (<><p className='text-gray-900 text-center  '>Ha agregado {cant} {cant== 1 ?("Item"):("Items")}</p>
                         <button className='rounded border bg-violet-500 p-2 m-2 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300' onClick={aCarrito}>Ir al Carrito</button></>)}
                         
                         </div>
