@@ -1,15 +1,20 @@
 import ItemCount from '../Item/ItemCount'
-import {useState} from 'react';
-import { useNavigate } from 'react-router-dom'
+import {useState, useContext} from 'react';
+import { useNavigate } from 'react-router-dom';
+import {CartContext} from '../context/CartContext.jsx';
+
+
 function ItemDetail(props) {
-    const {title, price, filename, stock, series,} = props;
+    const {title, price, filename, stock, series, id} = props;
     const [cant, setCant] = useState(0);
+    const {agregarItem, cartItems} = useContext(CartContext);
 
     const onAdd = (cant)=>{
         setCant(cant)
+        agregarItem( props , cant)
     }
     const navigate = useNavigate();
-    
+
     function aCarrito(){ navigate("/cart") }
 
   return (
@@ -29,7 +34,7 @@ function ItemDetail(props) {
                            - Altura : 16.5mm</p>
                         <div className='text-center'>
                         {cant == 0 ?(<ItemCount stock={stock} initial={0} onAdd={onAdd} />):
-                        (<><p className='text-gray-900 text-center  '>Ha agregado {cant} {cant== 1 ?("Item"):("Items")}</p>
+                        (<><p className='text-gray-900 text-center  '>Ha agregado {cant} {cant == 1 ?("Item"):("Items")}</p>
                         <button className='rounded border bg-violet-500 p-2 m-2 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300' onClick={aCarrito}>Ir al Carrito</button></>)}
                         
                         </div>

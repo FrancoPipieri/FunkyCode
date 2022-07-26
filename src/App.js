@@ -4,10 +4,12 @@ import ItemDetailConteiner from './components/Containers/ItemDetailConteiner.jsx
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Footer from './components/Footer/Footer.jsx';
 import Cart from './components/Cart/Cart.jsx';
+import CartProvider from './components/context/CartContext.jsx';
 
 function App() {
   return (
   <>
+  <CartProvider>
     <BrowserRouter>
       <NavBar />
      <hr/>
@@ -19,6 +21,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    </CartProvider>
   </>
   );
 }
