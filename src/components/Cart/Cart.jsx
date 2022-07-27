@@ -1,5 +1,7 @@
-import { useContext, useEffect} from "react";
+import { useContext} from "react";
 import { CartContext } from '../context/CartContext.jsx';
+import { Link } from 'react-router-dom'
+import '../main.css'
 
 const Cart = () => {
 
@@ -7,8 +9,15 @@ const Cart = () => {
 
   return (
     <>
-<div>
-<div className="w-full h-full bg-black bg-opacity-90 top-0 overflow-y-auto overflow-x-hidden" id="chec-div">
+    <div className="body">
+     {cartItems =="" ? ( <div className="text-center py-20 mx-20">
+                            <h1 className="underline text-2xl my-6 font-bold">No tienes Items en tu Carrito.</h1>
+                            <Link to={"/"}>
+                            <button className="m-6 inicio">Volver al Inicio</button>
+                            </Link>
+                        </div>) :( <> 
+    <div>
+    <div className="w-full h-full bg-black bg-opacity-90 top-0 overflow-y-auto overflow-x-hidden" id="chec-div">
     <div className="w-full z-10 right-0 h-full overflow-x-hidden transform translate-x-0 transition ease-in-out duration-700" id="checkout">
         <div className="flex md:flex-row flex-col justify-end" id="cart">
             <div className="w-full md:pl-10 pl-4 pr-10 md:pr-4 md:py-12 py-8 bg-white overflow-y-auto overflow-x-hidden h-screen" id="scroll">
@@ -16,7 +25,7 @@ const Cart = () => {
                 {cartItems.map((item) => (
                     <div className="md:flex items-center mt-14 py-8 border-t border-gray-200">
                     <div className="w-1/4">
-                        <img src={item.item.filename} className="w-full h-full object-center object-cover rounded-md" />
+                        <img src={item.item.filename} alt={item.item.name} className="w-full h-full object-center object-cover rounded-md" />
                     </div>
                     <div className="md:pl-3 md:w-3/4">
                         <p className="text-xs leading-3 text-gray-800 md:pt-0 pt-4">Id:{item.item.id}</p>
@@ -53,6 +62,7 @@ const Cart = () => {
             </div>
         </div>
 </div>
+</div></>)}
 </div>
 </>  );}
 

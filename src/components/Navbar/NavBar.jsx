@@ -6,9 +6,11 @@ import { Disclosure} from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import {Link} from 'react-router-dom';
 import {useNavigate} from 'react-router-dom';
-
+import { useContext} from "react";
+import { CartContext } from '../context/CartContext.jsx';
 
 function NavBar() {
+  const {cartItems} = useContext(CartContext);
 
   const navigation = [
     { name: 'Harry Potter', href: '#'},
@@ -85,13 +87,13 @@ function NavBar() {
                 <button className='text-gray-400 mx-4 btndisabled invisible sm:visible absolute sm:relative' disabled> Sobre Nosotros</button>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                {cartItems =="" ? ("") : (
                 <button
                   type="button"
                   className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" onClick={aCarrito}
                 >
-                  <span className="sr-only">View notifications</span>
                   <Icon className="h-6 w-6" aria-hidden="true" />
-                </button>
+                </button>)}
               </div>
             </div>
           </div>
