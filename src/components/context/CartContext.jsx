@@ -24,9 +24,18 @@ function CartProvider({children}){
     setCartItems([]);
   };
 
-  const remove = (itemId) =>{
-    const update = cartItems.filter((i) => i.item.id !== itemId);
-    setCartItems(update);
+  const remove = ({item , quantity}) =>{
+    if(quantity > 1){
+      const update = cartItems.map(i => {
+          if(i.item.id === item.id){
+            return {...i, quantity: i.quantity - 1}
+          }
+          return i;
+      })
+      setCartItems(update);
+    }else{
+      setCartItems( cartItems.filter((i) => i.item.id !== item.id) );
+    }
   };
 
   const agregarItem = (itemUpdate, cantidadUpdate) =>{

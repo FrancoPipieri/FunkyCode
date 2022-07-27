@@ -31,7 +31,7 @@ const Cart = () => {
                         <p className="w-96 text-sm leading-3 text-gray-600 m-1">Cantidad: {item.quantity}</p>
                         <div className="flex items-center justify-between pt-5 pr-6">
                             <div className="flex itemms-center">
-                                <button onClick={() => remove(item.item.id)} className="text-xs leading-3 underline text-red-500 cursor-pointer">Remove</button>
+                                <button onClick={() => remove(item)} className="text-xs leading-3 underline text-red-500 cursor-pointer">Remove</button>
                             </div>
                             <p className="text-base font-black leading-none text-gray-800">${item.item.price}</p>
                         </div>
