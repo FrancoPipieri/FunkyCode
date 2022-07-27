@@ -5,9 +5,6 @@ const Cart = () => {
 
   const { cartItems, precioTotal , clear , remove } = useContext(CartContext);
 
-
-
-  console.log(cartItems);
   return (
     <>
 <div>
