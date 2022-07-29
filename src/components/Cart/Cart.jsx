@@ -5,7 +5,7 @@ import '../main.css'
 
 const Cart = () => {
 
-  const { cartItems, precioTotal , clear , remove } = useContext(CartContext);
+  const { cartItems, precioTotal , clear , removeUnity, remove } = useContext(CartContext);
 
   return (
     <>
@@ -35,11 +35,10 @@ const Cart = () => {
                         <p className="text-sm leading-3 text-gray-600 pt-2 m-1">Altura : 16.5mm</p>
                         <p className="w-96 text-sm leading-3 text-gray-600 m-1">Estilo Bobblehead</p>
                         <p className="w-96 text-sm leading-3 text-gray-600 m-1">Cantidad: {item.quantity}</p>
-                        <div className="flex items-center justify-between pt-5 pr-6">
-                            <div className="flex itemms-center">
-                                <button onClick={() => remove(item)} className="text-xs leading-3 underline text-red-500 cursor-pointer">Remove</button>
-                            </div>
-                            <p className="text-base font-black leading-none text-gray-800">${item.item.price}</p>
+                        <p className="text-base font-black leading-none text-gray-800 text-end">${item.item.price}</p>
+                        <div className="flex w-fit flex-col pt-5 pr-6 ">        
+                            <button onClick={() => remove(item.item.id)} className="text-xs text-start leading-3 underline text-red-500 cursor-pointer">Eliminar Articulo</button>
+                            <button onClick={() => removeUnity(item)} className="text-xs text-start mt-1 leading-3 underline text-red-500 cursor-pointer">Eliminar Unidad</button>
                         </div>
                         <p className="text-base font-gray leading-none my-3">SubTotal: ${item.quantity * Number(item.item.price)}</p>
                     </div>

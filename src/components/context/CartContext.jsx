@@ -23,8 +23,11 @@ function CartProvider({children}){
   const clear = () =>{
     setCartItems([]);
   };
-
-  const remove = ({item , quantity}) =>{
+  const remove = (itemId)=>{
+    const cartUpdate = cartItems.filter((i) => i.item.id !== itemId)
+    setCartItems(cartUpdate)
+  }
+  const removeUnity = ({item , quantity}) =>{
     if(quantity > 1){
       const update = cartItems.map(i => {
           if(i.item.id === item.id){
@@ -49,7 +52,7 @@ function CartProvider({children}){
     };
   };
   return (
-    <CartContext.Provider value={{cartItems, precioTotal, itemCount, clear, remove, agregarItem }}>
+    <CartContext.Provider value={{cartItems, precioTotal, itemCount, remove, clear, removeUnity, agregarItem }}>
       {children}
     </CartContext.Provider>
   );
