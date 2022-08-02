@@ -8,11 +8,11 @@ function ItemDetailConteiner(props) {
   const [product, setProduct] = useState([])
   const [loader, setLoading] = useState(false);
   const  {id}  = useParams();
-  
+
   useEffect(() => {
     setLoading(true);
-    getItem(id)
-      .then((res) => setProduct({ ...res, id }))
+    getItem(Number(id))
+      .then(snapshot => snapshot.docs.map(doc => setProduct(doc.data() )))
       .finally(() => setLoading(false));
   }, []);
 

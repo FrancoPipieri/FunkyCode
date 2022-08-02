@@ -1,13 +1,13 @@
-import data from './data.json';
+import {getFirestore, collection, getDocs, query, where, limit} from 'firebase/firestore';
 
 export const getItem = (id) => {
-  return new Promise((res, rej) => {
-    setTimeout(() => {
-      res(
-        data.find(
-          (item) => item.id == id
-        )
-      );
-    }, 2000);
-  });
+
+  const db = getFirestore();
+
+  const q = query(collection(db, "funky-code"),
+            where("id", "==", id),
+            limit(1)
+            );  
+
+  return getDocs(q)
 };

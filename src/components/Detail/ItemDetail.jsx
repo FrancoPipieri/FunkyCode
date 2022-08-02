@@ -1,4 +1,4 @@
-import ItemCount from '../Item/ItemCount'
+import ItemCount from '../Item/ItemCount';
 import {useState, useContext} from 'react';
 import { useNavigate } from 'react-router-dom';
 import {CartContext} from '../context/CartContext.jsx';
@@ -7,11 +7,11 @@ import {CartContext} from '../context/CartContext.jsx';
 function ItemDetail(props) {
     const {title, price, filename, stock, series, id} = props;
     const [cant, setCant] = useState(0);
-    const {agregarItem, cartItems} = useContext(CartContext);
+    const {addItem, cartItems} = useContext(CartContext);
 
     const onAdd = (cant)=>{
         setCant(cant)
-        agregarItem( props , cant)
+        addItem( props , cant)
     }
     const navigate = useNavigate();
 

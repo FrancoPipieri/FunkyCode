@@ -41,7 +41,7 @@ function CartProvider({children}){
     }
   };
 
-  const agregarItem = (itemUpdate, cantidadUpdate) =>{
+  const addItem = (itemUpdate, cantidadUpdate) =>{
     let itemIndex = cartItems.findIndex((i) => i.item.id === itemUpdate.id );
     if(itemIndex === -1){
       setCartItems([...cartItems, {item: itemUpdate, quantity: cantidadUpdate}])
@@ -52,7 +52,7 @@ function CartProvider({children}){
     };
   };
   return (
-    <CartContext.Provider value={{cartItems, precioTotal, itemCount, remove, clear, removeUnity, agregarItem }}>
+    <CartContext.Provider value={{cartItems, precioTotal, itemCount, remove, clear, removeUnity, addItem }}>
       {children}
     </CartContext.Provider>
   );
