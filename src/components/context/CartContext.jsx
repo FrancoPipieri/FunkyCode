@@ -1,4 +1,6 @@
 import React, { createContext, useState , useEffect } from "react";
+import {addDoc, collection, getFirestore, updateDoc, doc, writeBatch} from "firebase/firestore";
+import swal from 'sweetalert'
 
 export const CartContext = createContext([]);
 
@@ -51,8 +53,33 @@ function CartProvider({children}){
       setCartItems(carritoModified);
     };
   };
+
+  const sendOrder = (precioTotal, dataUser) =>{
+    const db = getFirestore();
+    const orderCollection = collection(db, "ordenes");
+    const today  = new Date()
+    const buyDate = today.toLocaleDateString("es-ES")
+
+    const orden ={
+        compra: cartItems,
+        user: dataUser,
+        date: buyDate,
+        total: precioTotal
+    }
+    addDoc(orderCollection, orden)
+    .then(res => swal({
+      title: "Good job!",
+      text: `Tu Numero de Orden es:
+        ${res.id}`,
+      icon: "success",
+      button: "Finalizar",
+    }))
+    .catch(err => console.log("error", err))
+};
+
+
   return (
-    <CartContext.Provider value={{cartItems, precioTotal, itemCount, remove, clear, removeUnity, addItem }}>
+    <CartContext.Provider value={{cartItems, precioTotal, itemCount, remove, clear, removeUnity, addItem, sendOrder}}>
       {children}
     </CartContext.Provider>
   );

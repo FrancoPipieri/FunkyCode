@@ -121,3 +121,6 @@ input[type=number] { -moz-appearance:textfield; }
     justify-content: center;
     font-weight: bolder;
 }
+.centroImg{
+    text-align: -webkit-center;
+}

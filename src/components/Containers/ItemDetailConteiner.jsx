@@ -1,6 +1,6 @@
 import {useState , useEffect} from 'react';  
 import ItemDetail from '../Detail/ItemDetail.jsx';
-import Loader from '../Utils/Loader.jsx';
+import Loader from '../Loader.jsx';
 import { getItem } from '../Utils/AsyncMock.jsx'
 import {useParams} from 'react-router-dom';
 
