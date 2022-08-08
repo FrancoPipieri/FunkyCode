@@ -68,7 +68,7 @@ function CartProvider({children}){
     }
     addDoc(orderCollection, orden)
     .then(res => swal({
-      title: "Good job!",
+      title: "GENIAL!",
       text: `Tu Numero de Orden es:
         ${res.id}`,
       icon: "success",
