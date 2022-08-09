@@ -1,5 +1,5 @@
 import React, { createContext, useState , useEffect } from "react";
-import {addDoc, collection, getFirestore, updateDoc, doc, writeBatch} from "firebase/firestore";
+import {addDoc, collection, getFirestore} from "firebase/firestore";
 import swal from 'sweetalert'
 
 export const CartContext = createContext([]);

@@ -1,13 +1,13 @@
-import ItemCount from '../Item/ItemCount';
+import ItemCount from './ItemCount';
 import {useState, useContext} from 'react';
 import { useNavigate } from 'react-router-dom';
 import {CartContext} from '../context/CartContext.jsx';
 
 
 function ItemDetail(props) {
-    const {title, price, filename, stock, series, id} = props;
+    const {title, price, filename, stock, series} = props;
     const [cant, setCant] = useState(0);
-    const {addItem, cartItems} = useContext(CartContext);
+    const { addItem } = useContext(CartContext);
 
     const onAdd = (cant)=>{
         setCant(cant)
