@@ -7,7 +7,7 @@ Elegi este tema de articulos por su gran variedad y cantidad de articulos y asi 
 Estoy implementando todo lo visto en clase para poder crear la mejor experiencia e interaccion con el usuario. Aparte de crear algo lo mas prolijo visualmente. Los componentes creados en este proyecto fueron todos pensados para que cada uno cumpla con distintas funciones y actividades.
 
 ## Implementacion [DEMO]().
-
+# Agregar GIF/Video mostrando la navegabilidad y los flujos básicos de la aplicación !! 
 
 
 ## Dependencias Utilizadas en el Proyecto:
@@ -32,5 +32,5 @@ Estoy implementando todo lo visto en clase para poder crear la mejor experiencia
   * Usado para el sistema de navegación entre páginas para que funcione como una SPA.
   * Leer documentacion [aqui](https://github.com/remix-run/react-router).
   
-Proyecto creado en el curso de FrontEnd ReactJS de Coderhouse.
+#### Proyecto creado en el curso de FrontEnd ReactJS de Coderhouse.
 ##### Duracion: 7 Semanas - 2 Clases por Semana
