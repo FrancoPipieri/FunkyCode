@@ -16,7 +16,7 @@ function Item(props){
       <p className="mt-1 text-lg font-medium text-gray-900">${props.price}</p>
       </div> 
       <Link to={`/item/${props.id}`}> 
-      <a href="#" className="button">Detalles</a>
+      <a href="#" className="button w-10/12">Detalles</a>
       </Link>
     </div>
     )

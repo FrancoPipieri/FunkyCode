@@ -9,6 +9,7 @@ import {useNavigate} from 'react-router-dom';
 import { useContext} from "react";
 import { CartContext } from '../context/CartContext.jsx';
 
+
 function NavBar() {
   const {cartItems} = useContext(CartContext);
 
@@ -25,7 +26,8 @@ function NavBar() {
   const navigate = useNavigate();
       
   function aCarrito(){ navigate("/cart") }
-  
+  function aCompras(){navigate("/compras")}
+
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
   }
@@ -84,7 +86,8 @@ function NavBar() {
                     ))}
                   </div>
                 </div>
-                <button className='text-gray-400 mx-4 btndisabled invisible sm:visible absolute sm:relative' disabled> Sobre Nosotros</button>
+                <button className='text-gray-400 btndisabled invisible sm:visible absolute sm:relative rounded' disabled> Sobre Nosotros</button>
+                <button className='text-white text-base my-auto py-2.5 px-5 bg-neutral-900 invisible sm:visible absolute sm:relative rounded hover:bg-neutral-500' onClick={aCompras}>Compra</button>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {cartItems =="" ? ("") : (
