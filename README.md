@@ -6,8 +6,9 @@ Elegi este tema de articulos por su gran variedad y cantidad de articulos y asi 
 
 Estoy implementando todo lo visto en clase para poder crear la mejor experiencia e interaccion con el usuario. Aparte de crear algo lo mas prolijo visualmente. Los componentes creados en este proyecto fueron todos pensados para que cada uno cumpla con distintas funciones y actividades.
 
-## Implementacion [DEMO]().
-# Agregar GIF/Video mostrando la navegabilidad y los flujos básicos de la aplicación !! 
+## Navegacion.
+
+![flujo de app](https://user-images.githubusercontent.com/101369142/184255966-6541b56d-b1a6-4557-aa0e-5dd6ffecfdcd.gif)
 
 
 ## Dependencias Utilizadas en el Proyecto:
