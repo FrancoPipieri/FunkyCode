@@ -2,21 +2,18 @@ import {getFirestore, collection, getDocs, query, where, limit, documentId} from
 import { useState } from 'react';
 
 function Compras(){
-    const [id, setId] = useState();
+
     const [lastBuy, setLastBuy] = useState();
     const handleSubmit = (e) =>{
         e.preventDefault();
         const input = document.getElementById("compra");
         const data = input.value;
-        setId(data)
+
         const db = getFirestore();
         const orden = collection(db, "ordenes")
-        console.log(orden)
-        const q = query(orden, where(documentId(), "==", id), limit(1));
-        console.log(q)
+        const q = query(orden, where(documentId(), "==", data || input.value), limit(1));
         getDocs(q).then(snapshot => snapshot.docs.map(doc => setLastBuy(doc.data())))
-        console.log(id)
-        console.log(lastBuy)
+
     }
     const borrar = () =>{
       setLastBuy(undefined)
