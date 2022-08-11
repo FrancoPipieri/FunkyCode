@@ -70,7 +70,8 @@ function CartProvider({children}){
     .then(res => swal({
       title: "GENIAL!",
       text: `Tu Numero de Orden es:
-        ${res.id}`,
+                ${res.id}
+            Ingresalo En Compra para verla`,
       icon: "success",
       button: "Finalizar",
     }))

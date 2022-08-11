@@ -29,8 +29,7 @@
     border: solid 3px rgb(69, 108, 95);
     border-radius: 10px;
     display: flex;
-    margin: 10px auto;
-    padding: 6px;
+    padding: 6px 16px;
     justify-content: center;
 }
 .button:hover{
@@ -123,3 +122,6 @@ input[type=number] { -moz-appearance:textfield; }
 .centroImg{
     text-align: -webkit-center;
 }
+.swal-text {
+    text-align: center
+  }
