@@ -1,5 +1,5 @@
 import React, { createContext, useState , useEffect } from "react";
-import {addDoc, collection, getFirestore} from "firebase/firestore";
+import {addDoc, collection, doc, getFirestore, updateDoc} from "firebase/firestore";
 import swal from 'sweetalert'
 
 export const CartContext = createContext([]);
@@ -47,12 +47,27 @@ function CartProvider({children}){
     let itemIndex = cartItems.findIndex((i) => i.item.id === itemUpdate.id );
     if(itemIndex === -1){
       setCartItems([...cartItems, {item: itemUpdate, quantity: cantidadUpdate}])
-    }else{
+      console.log(cartItems)
+    }else if(cartItems.quantity < itemUpdate.stock){
       let carritoModified = [...cartItems];
       carritoModified[itemIndex].quantity += cantidadUpdate;
       setCartItems(carritoModified);
+    }else{
+      swal({
+        title: "¡Error!",
+        text: "No es posible agregar esa cantidad de Items a tu carrito",
+        icon: "error",
+        button: "Cambiar"
+      })
+      .then((value) =>{
+        switch(value){
+         default:
+          window.location.replace(''); 
+        }
+      })
     };
   };
+  
 
   const sendOrder = (precioTotal, dataUser) =>{
     const db = getFirestore();
@@ -68,7 +83,7 @@ function CartProvider({children}){
     }
     addDoc(orderCollection, orden)
     .then(res => swal({
-      title: "GENIAL!",
+      title: "¡GENIAL!",
       text: `Tu Numero de Orden es:
                 ${res.id}
             Ingresalo En Compra para verla`,
