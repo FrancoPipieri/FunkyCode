@@ -47,8 +47,7 @@ function CartProvider({children}){
     let itemIndex = cartItems.findIndex((i) => i.item.id === itemUpdate.id );
     if(itemIndex === -1){
       setCartItems([...cartItems, {item: itemUpdate, quantity: cantidadUpdate}])
-      console.log(cartItems)
-    }else if(cartItems.quantity < itemUpdate.stock){
+    }else if(cartItems[itemIndex].quantity < itemUpdate.stock){
       let carritoModified = [...cartItems];
       carritoModified[itemIndex].quantity += cantidadUpdate;
       setCartItems(carritoModified);
@@ -65,7 +64,9 @@ function CartProvider({children}){
           window.location.replace('/'); 
         }
       })
-    };
+    }
+
+    ;
   };
   
 
