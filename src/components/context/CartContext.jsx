@@ -61,7 +61,7 @@ function CartProvider({children}){
       .then((value) =>{
         switch(value){
          default:
-          window.location.replace('/'); 
+          window.location.reload('/'); 
         }
       })
     }
