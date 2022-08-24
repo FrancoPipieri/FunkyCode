@@ -56,14 +56,8 @@ function CartProvider({children}){
         title: "¡Error!",
         text: "No es posible agregar esa cantidad de Items a tu carrito",
         icon: "error",
-        button: "Cambiar"
-      })
-      .then((value) =>{
-        switch(value){
-         default:
-          window.location.reload('/'); 
-        }
-      })
+        button: "Cambiar",
+      });
     }
 
     ;

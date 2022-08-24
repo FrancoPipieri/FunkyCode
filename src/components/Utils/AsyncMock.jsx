@@ -1,13 +1,20 @@
-import {getFirestore, collection, getDocs, query, where, limit} from 'firebase/firestore';
+import {
+  getFirestore,
+  collection,
+  getDocs,
+  query,
+  where,
+  limit,
+} from "firebase/firestore";
 
 export const getItem = (id) => {
-
   const db = getFirestore();
 
-  const q = query(collection(db, "funky-code"),
-            where("id", "==", id),
-            limit(1)
-            );  
+  const q = query(
+    collection(db, "funky-code"),
+    where("id", "==", id),
+    limit(1)
+  );
 
-  return getDocs(q)
+  return getDocs(q);
 };

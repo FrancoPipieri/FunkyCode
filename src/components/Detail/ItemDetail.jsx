@@ -11,7 +11,7 @@ function ItemDetail(props) {
 
     const onAdd = (cant)=>{
         setCant(cant)
-        addItem( props , cant)
+        addItem(props, cant);
     }
     const navigate = useNavigate();
 

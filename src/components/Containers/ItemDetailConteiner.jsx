@@ -17,9 +17,7 @@ function ItemDetailConteiner(props) {
   }, []);
 
 
-return(
-  <>{loader ? <Loader/> : <ItemDetail {...product} />}</>
-)
+return <>{loader ? <Loader /> : <ItemDetail {...product} />}</>;
 
 }
 export default ItemDetailConteiner;
